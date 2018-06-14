@@ -25,7 +25,7 @@ class ViewController: UIViewController {
 
 @IBDesignable
 class AngleView: UIView {
-    
+    //Inspired in https://stackoverflow.com/a/41272019
     @IBInspectable var fillColor: UIColor = UIColor.blue { didSet { setNeedsLayout() } }
     @IBInspectable var angleDirection : Int = 0
         /*{didSet(newValue){
